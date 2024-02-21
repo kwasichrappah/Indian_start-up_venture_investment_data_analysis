@@ -1,15 +1,28 @@
 # Indian_start-up_venture_investment_data_analysis
  The goal of this project is to propose the best indian start-up to invest.
 
+## Objective
+There are a lot of startups in the world and with India being one of the most populous nations in the world seems like one of the best countries to venture into a startup. Playing with 'Economies of scale', angel investors,venture capitalists and other investors are on the look out for viable Indian startups to put their in. The type of investment done also shows the risk appetite of the investor as well as the maturity stage of the startup.
+The objective of this project is to analyse the indian start-up investment data over the course of four years (2018-2021) to find out which funding stages are very attractive to investors and at what risk level. 
 
 ## Hypothesis 
-# Is start-up investment a good investment ?
-how many companies need funding and are at what level of funding ?
-why are the companies not moving into IPOs?
-which cities have the highest number of startups and at what levels?
-which sturtup venture is green?
-Howm many years have these startups been in existence and how many fundings have they recieved
+Is start-up investments a good venture ?
 
+
+
+## Analytical Questions
+1. How many companies need funding and are at what level of funding ?
+2. Why are the companies not moving into IPOs?
+3. Which cities have the highest number of startups and at what levels?
+4. Which startup venture is green?
+5. How many years have these startups been in existence and how many fundings have they recieved?
+
+## Stages of Startup Funding
+- Pre-seeding Stage : High risk;low funding less than $100,000;Minimum Viable Product yet to be created
+- Series A funding : High risk;High funding
+- Series B funding : Medium risk;Startup already established;high rewards
+- Series C funding : Low risk
+- Series D funding : Low risk
 
 Embarking on the journey of building a startup involves traversing various funding stages, each with its own unique purpose. From pre-seed to IPO, these various startup funding stages provide the capital necessary to progress and achieve critical milestones. As you become familiar with the different startup funding stages, you'll be better equipped to strategize and secure the resources needed for success.
 
