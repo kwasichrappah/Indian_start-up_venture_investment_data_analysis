@@ -6,11 +6,14 @@ There are a lot of startups in the world and with India being one of the most po
 The objective of this project is to analyse the indian start-up investment data over the course of four years (2018-2021) to find out which funding stages are very attractive to investors and at what risk level. 
 
 ## Hypothesis 
-Is start-up investments a good venture ?
+Is start-up investments a good venture? ## Average investment is the same across all the Sectors?
+
+# Alternate Hypo
+Average investment varies???
 
 ## Assumptions
 1. Investor is a patriotic Indian
-2. Interested in Startups in India only and owned by indians
+2. Interested in Startups in India only and owned by indians ## #must be converted into dollars only
 
 ## Analytical Questions
 1. How many companies need funding and are at what level of funding ?
@@ -26,6 +29,9 @@ Is start-up investments a good venture ?
 - Series B funding : Medium risk;Startup already established;high rewards
 - Series C funding : Low risk
 - Series D funding : Low risk
+
+
+
 
 Embarking on the journey of building a startup involves traversing various funding stages, each with its own unique purpose. From pre-seed to IPO, these various startup funding stages provide the capital necessary to progress and achieve critical milestones. As you become familiar with the different startup funding stages, you'll be better equipped to strategize and secure the resources needed for success.
 
