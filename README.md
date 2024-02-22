@@ -8,7 +8,9 @@ The objective of this project is to analyse the indian start-up investment data 
 ## Hypothesis 
 Is start-up investments a good venture ?
 
-
+## Assumptions
+1. Investor is a patriotic Indian
+2. Interested in Startups in India only and owned by indians
 
 ## Analytical Questions
 1. How many companies need funding and are at what level of funding ?
@@ -16,6 +18,7 @@ Is start-up investments a good venture ?
 3. Which cities have the highest number of startups and at what levels?
 4. Which startup venture is green?
 5. How many years have these startups been in existence and how many fundings have they recieved?
+6. What are the levels of funding the startups are receiving?
 
 ## Stages of Startup Funding
 - Pre-seeding Stage : High risk;low funding less than $100,000;Minimum Viable Product yet to be created
