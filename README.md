@@ -6,10 +6,10 @@ There are a lot of startups in the world and with India being one of the most po
 The objective of this project is to analyse the indian start-up investment data over the course of four years (2018-2021) to find out which funding stages are very attractive to investors and at what risk level. 
 
 ## Hypothesis 
-Is start-up investments a good venture? ## Average investment is the same across all the Sectors?
+Investment amounts received by start-ups have no relation to sectors they operate in.
 
 # Alternate Hypo
-Average investment varies???
+There is a relationship between investment amounts received by start-ups and the sectors they operate in
 
 ## Assumptions
 1. Investor is a patriotic Indian
@@ -22,6 +22,45 @@ Average investment varies???
 4. Which startup venture is green?
 5. How many years have these startups been in existence and how many fundings have they recieved?
 6. What are the levels of funding the startups are receiving?
+
+## Data Sources
+
+## How was the data cleaned
+## Assumptions come here
+## Screeenshots of the code
+
+## Which hypothesis test did you do
+## Brief about it
+## screenshots
+
+## q1
+## q2
+## q3
+## q4
+## q5
+## q6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Stages of Startup Funding
 - Pre-seeding Stage : High risk;low funding less than $100,000;Minimum Viable Product yet to be created
