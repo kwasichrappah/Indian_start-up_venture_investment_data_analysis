@@ -1,10 +1,16 @@
 # Indian_start-up_venture_investment_data_analysis
  The goal of this project is to propose the best indian start-up to invest.
 
+
+
+
+
+
 ## Objective
 There are a lot of startups in the world and with India being one of the most populous nations in the world seems like one of the best countries to venture into a startup. Playing with 'Economies of scale', angel investors,venture capitalists and other investors are on the look out for viable Indian startups to put their in. The type of investment done also shows the risk appetite of the investor as well as the maturity stage of the startup.
 The objective of this project is to analyse the indian start-up investment data over the course of four years (2018-2021) to find out which funding stages are very attractive to investors and at what risk level. 
 
+type of licence
 ## Hypothesis 
 Investment amounts received by start-ups have no relation to sectors they operate in.
 
@@ -41,16 +47,29 @@ There is a relationship between investment amounts received by start-ups and the
 ## q6
 
 
+parametric and non parametric statiscs
+https://towardsdatascience.com/anova-t-test-and-other-statistical-tests-with-python-e7a36a2fdc0c
+
+
+readme.so
 
 
 
+For readme
+## Project Title
+## Projet description
+## Getting started
+## Usage
+## Contributions
+## License
+## Additiona info
+## conclusion 
+## address(name,email address,link to your article in medium)
 
-
-
-
-
-
-
+### Author
+name
+Email
+link to article : www.234567.com
 
 
 
