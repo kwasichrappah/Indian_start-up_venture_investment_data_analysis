@@ -1,21 +1,6 @@
-## Analysis of the Indian Startup Ecosystem 
 
-## Project description
 ## Getting started
 ## Usage
-## Contributions
-## License
-License 
-## Additiona info
-## conclusion 
-## address(name,email address,link to your article in medium)
-
-### Author
-name
-Email
-link to article : www.234567.com
-
-
 
 # Analysis of the Indian Startup Ecosystem
  
@@ -47,7 +32,6 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## License
-
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Conclusion
