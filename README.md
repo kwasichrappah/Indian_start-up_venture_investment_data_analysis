@@ -1,5 +1,5 @@
 # Analysis of the Indian Startup Ecosystem
-(image:https://img.shields.io/badge/:badgeContent?style=flat-square[Static Badge])
+[(image:https://img.shields.io/badge/:badgeContent?style=flat-square[Static Badge])]
 [![Build Status](badge)](link)
 [![Tests](badge)](link)
  
