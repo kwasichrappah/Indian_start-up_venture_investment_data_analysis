@@ -1,5 +1,6 @@
 # Analysis of the Indian Startup Ecosystem
-[(image:https://img.shields.io/badge/:badgeContent?style=flat-square[Static Badge])]
+
+![My Image](Error messages\data_image.jpeg.jpg)
 [![Build Status](badge)](link)
 [![Tests](badge)](link)
  
