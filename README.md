@@ -1,12 +1,10 @@
-
-## Usage
-
 # Analysis of the Indian Startup Ecosystem
  
 This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the nex venture for them
 
 ## Getting Started
 Using the CRISP-DM framework for this data analysis project
+
 ### Installation
 
 - Use the package manager [pip] (https://pypi.org/project/MySQL-python/)  to install MySQLdb.
@@ -19,7 +17,8 @@ Using the CRISP-DM framework for this data analysis project
 
 #### Currency Converter function
 
-'''def curr_converter(df,rate):
+'''
+def curr_converter(df,rate):
     amount_new=[]
     for a in df:
         if a.startswith('$'):
@@ -30,10 +29,13 @@ Using the CRISP-DM framework for this data analysis project
             amount_new.append(float((a.split('₹')[1]).replace(',',''))/rate )  
         else :
             amount_new.append(a)    
-    return amount_new ```
+    return amount_new 
+    ```
 
 #### Some methods used in cleaning the data
-```data_2021['new'] =  data_2021['Investor'].fillna('inv') +data_2021['Amount'].astype(str) + data_2021['Stage'].fillna('ab') ```
+```
+data_2021['new'] =  data_2021['Investor'].fillna('inv') +data_2021['Amount'].astype(str) + data_2021['Stage'].fillna('ab')
+ ```
 
 ### Categorising the Sectors into 9 groups for easier classification
 ```
@@ -57,13 +59,7 @@ if p > 0.05:
 else:
  print('One or more sample distributions are not equal distributions (reject null Hypothesis)')
  ```
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
+ 
 ## Contributions
 Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
