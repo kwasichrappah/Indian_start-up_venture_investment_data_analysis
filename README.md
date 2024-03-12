@@ -1,6 +1,6 @@
 # Analysis of the Indian Startup Ecosystem
 
-![My Image](Error messages\data_image.jpeg.jpg)
+
 [![Build Status](badge)](link)
 [![Tests](badge)](link)
  
