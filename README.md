@@ -1,64 +1,46 @@
 # Analysis of the Indian Startup Ecosystem
+https://img.shields.io/badge/data_analysis-hypothesis_testing
  
-This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the nex venture for them
+This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the next big venture for them
 
 ## Getting Started
+This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the next big venture for them.
 Using the CRISP-DM framework for this data analysis project
 
-### Installation
+### Installation and Setup
 
-- Use the package manager [pip] (https://pypi.org/project/MySQL-python/)  to install MySQLdb.
-- Use the package manager [pip] (https://pypi.org/search/?q=sqlalchemy) to install sqlalchemy.
-- Use the package manager [pip] (https://pypi.org/search/?q=pyodbc+&o=) to install pyodbc.  
-- Use the package manager [pip] (https://pypi.org/search/?q=scipy&o=) to install scipy.
-- Use the package manager [pip] (https://pypi.org/search/?q=python-dotenv&o=) to install dotenv.
-- Use the package manager [pip] (https://pypi.org/search/?q=pandas&o=) to install pandas.
-- Use the package manager [pip] (https://pypi.org/search/?q=seaborn&o=) to install seaborn.
+#### Python Packages Used
 
-#### Currency Converter function
+- Data Manipulation : ```pandas``` 
+- Data Visualization : ```seaborn```
+- SQL Database Connection : ```sqlalchemy,pyodbc,python-dotenv```
+- Hypothesis Testing: ```scipy```
+- Use the package manager [pip] 
 
-'''
-def curr_converter(df,rate):
-    amount_new=[]
-    for a in df:
-        if a.startswith('$'):
-            
-            amount_new.append(a.split('$')[1].replace(',',''))
-        elif a.startswith('₹'): 
-            
-            amount_new.append(float((a.split('₹')[1]).replace(',',''))/rate )  
-        else :
-            amount_new.append(a)    
-    return amount_new 
-    ```
+### Data
+There are four (4) datasets used for analysis which share similiar columns such as company name,founded,headquarter city and other columns. 
 
-#### Some methods used in cleaning the data
-```
-data_2021['new'] =  data_2021['Investor'].fillna('inv') +data_2021['Amount'].astype(str) + data_2021['Stage'].fillna('ab')
- ```
+#### Source Data
+- 2021 startup funding dataset from an SQL database
+- 2020 startup funding dataset from an SQL database
+- 2019 startup funding dataset from a CSV file
+- 2018 startup funding dataset from a CSV file
 
-### Categorising the Sectors into 9 groups for easier classification
-```
-- Technology & Software: Startups primarily focused on developing software, AI, IT solutions, and technology-related services.
-- E-commerce & Retail: Startups involved in online retail, e-commerce platforms, marketplace solutions, and retail-focused businesses.
-- Finance & FinTech: Startups operating in financial services, banking, financial technology (FinTech), cryptocurrency, and related areas.
-- Healthcare & HealthTech: Startups in the healthcare industry, including health technology (HealthTech), telemedicine, medical devices, and healthcare services.
-- Education: Startups in the Education industry, including learning,spacetech,data story telling and edtech.
-- Energy: Startups in the Energy industry, including Renewable energy,battery technology, EV systems, crude oil and other energy related services.
-- Agriculture: Startups in the Agriclture industry, including farming and fishing.
-- Hospitality: Startups in the Hospitality industry, including real estate,hotels,homes and hospitality services.
-- Others: Startups that do not fit directly into the above categories or have unique business models.
-```
-#### Using the Willis Kruskal test to test the hypothesis
-```
-stat, p = kruskal(fintech.Amount, commerce.Amount, health.Amount,tech.Amount,edu.Amount,agric.Amount,energy.Amount,other.Amount)
-print('Statistics=%.3f, p=%.10f' % (stat, p))
+#### Data Preprocessing
+- Include the investment year to each data set.
+- Check headers and maintain the same column headers for all datasets
+- Get the Dollar/Rupee rate for each year
+- Convert all amounts to a common currency,Dollar
+- Concatenate the datasets to put them together
+- Perform Hypothesis Testing and Exploratory Data Analysis
 
-if p > 0.05:
- print('All sample distributions are the same (fail to reject H0)')
-else:
- print('One or more sample distributions are not equal distributions (reject null Hypothesis)')
- ```
+### Results and Evaluation
+
+- The industry sector fundings are not normally distributed therefore Willis Kruskal test used
+- Cleaned Data has 2879 rows with 9 funding sectors and 9 industry sectors.
+
+### Future Work
+There is a need to review the data cleaning proprocessing to be able to correctly fish out data entry mix up to make the data cleaner.
  
 ## Contributions
 Contributions, issues, and feature requests are welcome!
