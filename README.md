@@ -1,5 +1,5 @@
 # Analysis of the Indian Startup Ecosystem
-https://img.shields.io/badge/data_analysis-hypothesis_testing
+(https://img.shields.io/badge/data_analysis-hypothesis_testing)
  
 This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the next big venture for them
 
