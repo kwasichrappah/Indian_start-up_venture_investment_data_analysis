@@ -14,11 +14,12 @@ Using the CRISP-DM framework for this data analysis project
 
 #### Python Packages Used
 
+- Package manager : ```pip```
 - Data Manipulation : ```pandas``` 
-- Data Visualization : ```seaborn```
 - SQL Database Connection : ```sqlalchemy,pyodbc,python-dotenv```
+- Data Visualization : ```seaborn```
 - Hypothesis Testing: ```scipy```
-- Use the package manager [pip] 
+ 
 
 ### Data
 There are four (4) datasets used for analysis which share similiar columns such as company name,founded,headquarter city and other columns. 
