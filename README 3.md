@@ -32,30 +32,21 @@
 **Indian Startup Ecosystem Analysis** This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the next big venture for them.
 
 Features
-1. **Age**: Age of employee
-2. **Attrition**: Employee attrition status
-3. **Department**: Department of work
-4. **DistanceFromHome**: what is their distance from hime
-5. **Education**: 1-Below College; 2- College; 3-Bachelor; 4-Master; 5-Doctor;
-6. **EducationField**: The field they studies in in the University
-7. **EnvironmentSatisfaction**: 1-Low; 2-Medium; 3-High; 4-Very High;
-8. **JobSatisfaction**: 1-Low; 2-Medium; 3-High; 4-Very High;
-9. **MaritalStatus**: Whether they are married, single or divorced
-10. **MonthlyIncome**: How much an employee makes a month
-11. **NumCompaniesWorked**: Number of companies worked prior to IBM
-12. **WorkLifeBalance**: 1-Bad; 2-Good; 3-Better; 4-Best;
-13. **YearsAtCompany**: Current years of service in IBM
+1. **Founded**: Year the Startup was established
+2. **Company_Brand**: Name of Startup
+3. **HeadQuarter**: City the Company headquarters is found
+4. **Sector**: Which economic sector is the company categorized
+5. **What_it_does**: Description of what the company does
+6. **Founders**: The names of the founders of the company
+7. **Investor**: The names of investors of the company
+8. **Amount**: Amount invested into the company in dollars
+9. **Stage**: The investment stage the startup is on
+10. **Investment_year**: Investment year
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>GUI</summary>
-  <ul>
-    <li><a href="">Streamlit</a></li>
-  </ul>
-</details>
 
 <details>
 <summary>Database</summary>
@@ -71,30 +62,21 @@ Features
   </ul>
 </details>
 
-<details>
-<summary>Model</summary>
-  <ul>
-    <li><a href="">Sklearn</a></li>
-  </ul>
-</details>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- Features -->
 
 ## Key Features <a name="key-features"></a>
 
-- **A data application that presents visualizations on both the exploratory data and the KPIs**
-- **A predicitons page to predict by specifying the model you want to use**
-- **View proprietory data loaded in real-time form the remote server**
-- **Predictions are save for further analysis in the future and users can view the history of their prediction input values**
-
+- **Data analysis project that presents visualizations on the exploratory data analysis**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ![image](https://github.com/coderacheal/Attrition-Meter/assets/97846040/eb717bf3-d42b-4005-8080-276b69f08167)
 
-![image](https://github.com/coderacheal/Attrition-Insight/assets/97846040/a0f9bf95-b847-4a9b-963b-8d875a0b0fc1)
 
+
+![image](https://github.com/coderacheal/Attrition-Insight/assets/97846040/a0f9bf95-b847-4a9b-963b-8d875a0b0fc1)
 
 
 
@@ -119,13 +101,13 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/coderacheal/Attrition-Meter.git
+  git clone https://github.com/kwasichrappah/Indian_start-up_venture_investment_data_analysis
 ```
 
 Change into the cloned repository
 
 ```sh
-  cd Attrition-Meter
+  cd Indian_start-up_venture_investment_data_analysis
   
 ```
 
@@ -133,7 +115,7 @@ Create a virtual environment
 
 ```sh
 
-python -m venv env
+python -m .venv env
 
 ```
 
@@ -146,37 +128,31 @@ Activate the virtual environment
 
 ### Install
 
-Here, you need to recursively install the packages in the `requirements.txt` file using the command below 
+Here, you need to recursively install the packages in the packages below:
 
-```sh
-   pip install -r requirements.txt
-```
-
+- Package manager : ```pip```
+- Data Manipulation : ```pandas``` 
+- SQL Database Connection : ```sqlalchemy,pyodbc,python-dotenv```
+- Data Visualization : ```seaborn```
+- Hypothesis Testing: ```scipy```
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project,fork the project 
 
-
-```sh
-    streamlit run 1_🏠_Home.py
-
-```
-
-- A webpage opens up to view the app
-- Login to the app with `username=coderacheal` and `password:123456`
-- Finally test a prediction by clicking on the predicitons page
-- **Note**: Users may not be able to access the View Data page as the secrets file is not checked into git
+- **Note**: Users may not be able to access the SQL database for the 2020 and 2021 data as the login file is not checked into git
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-🕵🏽‍♀️ **Racheal Appiah-kubi**
+🕵🏽‍♀️ **Emmanuel Chrappah**
 
-- GitHub: [GitHub Profile](https://github.com/coderacheal)
-- Twitter: [Twitter Handle](https://twitter.com/racheal_kubi)
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/racheal-appiah-kubi/)
+-  Github:[Profile](https://github.com/kwasichrappah "Emmanuel Chrappah")
+-  Email:[Email](mailto:chrappahkwasi@gmail.com?subject=Hi "Hi!")
+- Twitter: [Twitter Handle](https://twitter.com/jaychraps)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/emmanuel-chrappah-61115813b/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
