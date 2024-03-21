@@ -72,11 +72,13 @@ Features
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-![image](https://github.com/coderacheal/Attrition-Meter/assets/97846040/eb717bf3-d42b-4005-8080-276b69f08167)
+
+<img src="images\PowerBI_1.png" alt="Alt text" title="Optional title">
 
 
 
-![image](https://github.com/coderacheal/Attrition-Insight/assets/97846040/a0f9bf95-b847-4a9b-963b-8d875a0b0fc1)
+<img src="images\powerbi_2.png" alt="Alt text" title="Optional title">
+
 
 
 
