@@ -1,67 +1,203 @@
-# Analysis of the Indian Startup Ecosystem
+<a name="readme-top"></a>
+
+<div align="center">
+  <h1><b>Analysis of the Indian Startup Ecosystem</b></h1>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📗 Table of Contents](#-table-of-contents)
+- [Indian Startup Ecosystem ](#attrition-insight-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# Indian Startup Ecosystem <a name="about-project"></a>
+
+**Indian Startup Ecosystem Analysis** This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the next big venture for them.
+
+Features
+1. **Founded**: Year the Startup was established
+2. **Company_Brand**: Name of Startup
+3. **HeadQuarter**: City the Company headquarters is found
+4. **Sector**: Which economic sector is the company categorized
+5. **What_it_does**: Description of what the company does
+6. **Founders**: The names of the founders of the company
+7. **Investor**: The names of investors of the company
+8. **Amount**: Amount invested into the company in dollars
+9. **Stage**: The investment stage the startup is on
+10. **Investment_year**: Investment year
 
 
-[![Build Status](badge)](link)
-[![Tests](badge)](link)
- 
-This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the next big venture for them
+## 🛠 Built With <a name="built-with"></a>
 
-## Getting Started
-This data analysis project is to answer questions that investors have been asking over the years whether investing in an indian startup is the next big venture for them.
-Using the CRISP-DM framework for this data analysis project
+### Tech Stack <a name="tech-stack"></a>
 
-### Installation and Setup
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="">Microsoft SQL Server</a></li>
+  </ul>
+</details>
 
-#### Python Packages Used
+<details>
+<summary>Language</summary>
+  <ul>
+    <li><a href="">Python</a></li>
+  </ul>
+</details>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- Features -->
+
+## Key Features <a name="key-features"></a>
+
+- **Data analysis project that presents visualizations on the exploratory data analysis**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+![image](https://github.com/coderacheal/Attrition-Meter/assets/97846040/eb717bf3-d42b-4005-8080-276b69f08167)
+
+
+
+![image](https://github.com/coderacheal/Attrition-Insight/assets/97846040/a0f9bf95-b847-4a9b-963b-8d875a0b0fc1)
+
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Python
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+```sh
+  cd my-folder
+  git clone https://github.com/kwasichrappah/Indian_start-up_venture_investment_data_analysis
+```
+
+Change into the cloned repository
+
+```sh
+  cd Indian_start-up_venture_investment_data_analysis
+  
+```
+
+Create a virtual environment
+
+```sh
+
+python -m .venv env
+
+```
+
+Activate the virtual environment
+
+```sh
+    env/Scripts/activate
+```
+
+
+### Install
+
+Here, you need to recursively install the packages in the packages below:
 
 - Package manager : ```pip```
 - Data Manipulation : ```pandas``` 
 - SQL Database Connection : ```sqlalchemy,pyodbc,python-dotenv```
 - Data Visualization : ```seaborn```
 - Hypothesis Testing: ```scipy```
- 
 
-### Data
-There are four (4) datasets used for analysis which share similiar columns such as company name,founded,headquarter city and other columns. 
+### Usage
 
-#### Source Data
-- 2021 startup funding dataset from an SQL database
-- 2020 startup funding dataset from an SQL database
-- 2019 startup funding dataset from a CSV file
-- 2018 startup funding dataset from a CSV file
+To run the project,fork the project 
 
-#### Data Preprocessing
-- Include the investment year to each data set.
-- Check headers and maintain the same column headers for all datasets
-- Get the Dollar/Rupee rate for each year
-- Convert all amounts to a common currency,Dollar
-- Concatenate the datasets to put them together
-- Perform Hypothesis Testing and Exploratory Data Analysis
+- **Note**: Users may not be able to access the SQL database for the 2020 and 2021 data as the login file is not checked into git
 
-### Results and Evaluation
+<!-- AUTHORS -->
 
-- The industry sector fundings are not normally distributed therefore Willis Kruskal test used
-- Cleaned Data has 2879 rows with 9 funding sectors and 9 industry sectors.
+## 👥 Author <a name="authors"></a>
 
-### Future Work
-There is a need to review the data cleaning proprocessing to be able to correctly fish out data entry mix up to make the data cleaner.
- 
-## Contributions
+🕵🏽‍♀️ **Emmanuel Chrappah**
+
+-  Github:[Profile](https://github.com/kwasichrappah "Emmanuel Chrappah")
+-  Email:[Email](mailto:chrappahkwasi@gmail.com?subject=Hi "Hi!")
+- Twitter: [Twitter Handle](https://twitter.com/jaychraps)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/emmanuel-chrappah-61115813b/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- **Add a front end application for users**
+  
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
-Give a ⭐️ if you like this project!
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Feel free to check the [issues page](../../issues/).
 
-## Conclusion
-From my analysis,it is realised that :
-- Many startups located in the Bangalore have the highest average investments as compared to other cities therefore it will be easier to find viable startups to invest in that city.
-- There is a high average investment needed for the E-Commerce & Retail Sector Sector, an investor is adviced to ventor into other sectors such as Energy,Hospitality,Agriculture and Technology & Software.
-- Though many startups looked for other sources of funding such as Debt financing, there are still many other startups in the Seed financing category that investors can invest into. 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+<!-- SUPPORT -->
 
-**Emmanuel Chrappah**
+## ⭐️ Show your support <a name="support"></a>
 
-- [Profile](https://github.com/rohit19060 "Emmanuel Chrappah")
-- [Email](mailto:chrappahkwasi@gmail.com?subject=Hi "Hi!")
+If you like this project kindly show some love, give it a 🌟 **STAR** 🌟
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank all the free available resource made available online
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
